@@ -37,7 +37,7 @@ else {
     <div class="container">
         <div class="row">
             <div class="col">
-                <h4>Selamat Belajar <?=$_GET['name'] ?>, silahkan pilih topik yang akan di pelajari!<h4>
+                <h4>Selamat Belajar <?= $_SESSION['name'] ?>, silahkan pilih topik yang akan di pelajari!<h4>
             </div>
         </div>
         <div class="row col-md-6 offset-md-3 justify-content-md-between">            
