@@ -21,14 +21,13 @@ if (!isset($_SESSION['name']) || $_SESSION['name'] == '') {
 </head>
 
 <body>
-    </div>
-        <div class="col-md-auto">
-            <div class="container">
-                <a href="../choices.php?name=<?= $_SESSION['name'] ?>"class="kembali btn btn-success">Kembali</a>
+    <div class="container">
+        <a href="../choices.php?name=<?= $_SESSION['name'] ?>"class="kembali btn btn-success">Kembali</a>
         <div class="row">
             <div class="col-md-12 content">
             </div>
         </div>
+        <div class="row">
             <div class="col">
                 <h1><b>Yuk, Belajar Huruf Hangeul Korea & Cara Bacanya</b></h1>
                 <p>Huruf Hangeul terdiri dari huruf vokal dan huruf konsonan. Gimana ya, cara bacanya?</p>
@@ -55,10 +54,7 @@ if (!isset($_SESSION['name']) || $_SESSION['name'] == '') {
                 </table>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12 content">
-            </div>
-        </div>
+        <div class="row">            
             <div class="col">
                 <h2><b>Huruf Hangeul: Konsonan</b></h2>
                 <p>Huruf vokal nggak bisa berdiri sendiri tanpa huruf konsonan. Seperti apa bentuk huruf konsonan untuk Hangeul?</p>
@@ -105,7 +101,8 @@ if (!isset($_SESSION['name']) || $_SESSION['name'] == '') {
                     </tbody>
                 </table>
             </div>
-            <div class="row">
+        </div>
+        <div class="row">
             <div class="col">
                 <h2><b>Huruf Hangeul Batchim</b></h2>
                 <p>Batchim (밭침) atau sounds of the final consonant merupakan bunyi konsonan akhir yang ada pada suatu kata yang akan mempengaruhi pelafalan kata tersebut. Pelajari dulu yuk, contoh di bawah!</p>
@@ -136,4 +133,4 @@ if (!isset($_SESSION['name']) || $_SESSION['name'] == '') {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 
-</html>
+</html> 
