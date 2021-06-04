@@ -29,6 +29,11 @@ if (!isset($_SESSION['name']) || $_SESSION['name'] == '') {
             <div class="col-md-12 content">
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <h4><?= $_SESSION['name'] ?> memilih topik Angka untuk dipelajari<h4>
+            </div>
+        </div>
         <div>            
             <div class="col">
                 <h1 class="text-center"><strong>ANGKA</strong></h1>
