@@ -29,6 +29,11 @@ if (!isset($_SESSION['name']) || $_SESSION['name'] == '') {
         </div>
         <div class="row">
             <div class="col">
+                <h4><?= $_SESSION['name'] ?> memilih topik Huruf untuk dipelajari<h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
                 <h1><b>Yuk, Belajar Huruf Hangeul Korea & Cara Bacanya</b></h1>
                 <p>Huruf Hangeul terdiri dari huruf vokal dan huruf konsonan. Gimana ya, cara bacanya?</p>
                 <h2><b>Huruf Hangeul: Vokal</b></h2>
@@ -133,4 +138,4 @@ if (!isset($_SESSION['name']) || $_SESSION['name'] == '') {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 
-</html> 
+</html>
